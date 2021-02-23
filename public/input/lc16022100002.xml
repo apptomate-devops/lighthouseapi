@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ASPackage>
+  <Head>
+    <PackageName>AS Export</PackageName>
+    <CreatedDate>2021-02-16</CreatedDate>
+    <SchemaVersion>976</SchemaVersion>
+    <AsVersion>9.3.2.48279</AsVersion>
+  </Head>
+  <Body>
+    <Portfolios>
+      <Portfolio>
+        <EventID>lc16022100002</EventID>
+        <Country>[Not Classified]</Country>
+        <Currency>INR</Currency>
+        <PerformanceFee>5</PerformanceFee>
+        <ManagementFee>5</ManagementFee>
+        <RiskFreeConstant>0,005</RiskFreeConstant>
+        <OtherFees>0</OtherFees>
+        <Name>Investment Team\APG\Optimization Universe</Name>
+        <TimeWindow From="2008-12-30" To="2021-01-31"/>
+        <Options>
+          <ManagementFee>0,005</ManagementFee>
+          <PerformanceFee>0,005</PerformanceFee>
+          <RiskFree>0,0025</RiskFree>
+          <Frequency>M</Frequency>
+          <AUM>750000</AUM>
+          <WeeklyReturnsDay>Friday</WeeklyReturnsDay>
+          <TechniqueOptimize>Single Point</TechniqueOptimize>
+          <RiskMeasureOptimize>Modified VaR 99%</RiskMeasureOptimize>
+          <Leverage>
+            <ConstantAnnually Active="true"/>
+            <CostAsset>
+              <Asset>
+                <Name/>
+              </Asset>
+            </CostAsset>
+            <AnnualBps/>
+          </Leverage>
+        </Options>
+        <Benchmark1>
+          <Name>BOS International Fund - Balanced</Name>
+        </Benchmark1>
+        <Benchmark2>
+          <Name>Eurekahedge Fund of Funds Index</Name>
+        </Benchmark2>
+        <Constraints>
+          <AssetsWeights IsChecked="true">
+            <Values>
+              <Value Name="Dymon Asia Multi-Strategy Investment Fund" Min="0" Max="0.05">0</Value>
+              <Value Name="FengHe Asia Fund - USD" Min="0" Max="0.05">0</Value>
+              <Value Name="Fundsmith Equity Fund Sicav" Min="0" Max="0.05">0</Value>
+              <Value Name="Global Arbitrage Fund SP" Min="0" Max="0.05">0</Value>
+              <Value Name="GuardCap UCITS Funds plc - GuardCap Global Equity Fund" Min="0" Max="0.05">0</Value>
+              <Value Name="Horizon Capital Fund - European Trade Finance - Sub-Fund 1" Min="0" Max="0.05">0</Value>
+              <Value Name="iShares NASDAQ 100 UCITS ETF" Min="0" Max="0.05">0</Value>
+              <Value Name="iShares Physical Gold ETC" Min="0" Max="0.05">0</Value>
+              <Value Name="iShares U.S. Medical Devices ETF" Min="0" Max="0.05">0</Value>
+              <Value Name="LC Beacon Global Fund" Min="0" Max="0.05">0</Value>
+              <Value Name="LCV Trade Finance Fund - Class D" Min="0" Max="0.05">0</Value>
+              <Value Name="Quadriga Investors - Igneo Fund" Min="0" Max="0.05">0</Value>
+              <Value Name="Ress Life Investment A/S" Min="0" Max="0.05">0</Value>
+              <Value Name="Southern Ridges Macro Fund" Min="0" Max="0.05">0</Value>
+              <Value Name="Fundsmith Equity Fund Sicav" Min="0" Max="0.05">0</Value>
+              <Value Name="Dymon Asia" Min="0" Max="0.05">0</Value>
+            </Values>
+          </AssetsWeights>
+          <ExpAnnReturn IsChecked="true">
+            <Values/>
+          </ExpAnnReturn>
+          <ExpAnnVolatility IsChecked="true">
+            <Values/>
+          </ExpAnnVolatility>
+          <StrategyWeights IsChecked="true">
+            <Values>
+              <Value Name="Direct Holdings - Bonds" IsChecked="true" Min="0.05" Max="0.2"/>
+              <Value Name="Direct Holdings - Stocks" IsChecked="true" Min="0.25" Max="0.64"/>
+              <Value Name="Direct Holdings - Alternatives" IsChecked="true" Min="0.3" Max="0.68"/>
+            </Values>
+          </StrategyWeights>
+          <AssetTypeWeights IsChecked="true">
+            <Values>
+              <Value Name="Cash" IsChecked="true" Min="0.5" Max="0.8"/>
+              <Value Name="Equities" IsChecked="true" Min="0.25" Max="0.64"/>
+              <Value Name="Fixed Income" IsChecked="true" Min="0.05" Max="0.1"/>
+              <Value Name="Alternatives" IsChecked="true" Min="0.3" Max="0.68"/>
+            </Values>
+          </AssetTypeWeights>
+          <CurrencyWeights IsChecked="true">
+            <Values>
+              <Value Name="USD" IsChecked="true" Min="0.1" Max="0.2"/>
+              <Value Name="EUR" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="GBP" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="AUD" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="NZD" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="CAD" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="CHF" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="NOK" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="SEK" IsChecked="false" Min="0" Max="1"/>
+            </Values>
+          </CurrencyWeights>
+          <RisksLiquidity IsChecked="true">
+            <Values>
+              <Value Name="In 1 month" IsChecked="true" Min="0.44" Max="1"/>
+            </Values>
+          </RisksLiquidity>
+          <RisksPortfolioStatistics IsChecked="true">
+            <Values>
+              <Value Name="Max Drawdown" IsChecked="true" Min="-0.11" Max="0"/>
+            </Values>
+          </RisksPortfolioStatistics>
+          <ExposureNet IsChecked="true">
+            <Values>
+              <Value Name="APG Rating Exposure" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="AAA" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="AA+" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="AA" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="AA-" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="A+" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="A" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="A-" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="BBB+" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="BBB" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="BBB-" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="BB+" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="BB" IsChecked="true" Min="0.2" Max="0.5"/>
+              <Value Name="BB-" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="B+" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="B" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="B-" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="CCC+" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="CCC" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="CCC-" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="CC" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="C" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="DDD" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="DD" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="D" IsChecked="true" Min="0" Max="0"/>
+              <Value Name="NR" IsChecked="true" Min="0" Max="1"/>
+              <Value Name="APG Regional Exposure" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Asia Pacific" IsChecked="true" Min="0" Max="1"/>
+              <Value Name="China" IsChecked="true" Min="0.1" Max="0.6"/>
+              <Value Name="South Korea" IsChecked="true" Min="0.3" Max="0.6"/>
+              <Value Name="Australia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Vietnam" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Singapore" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Malaysia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="India" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Japan" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Bangladesh" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Cambodia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Brunei" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Hong Kong" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Indonesia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Laos" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Myanmar" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="New Zealand" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Pakistan" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Sri Lanka" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Taiwan" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Thailand" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Americas" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="U.S." IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Canada" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="E.U. &amp;amp; U.K." IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Netherlands" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="France" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Italy" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Germany" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Great Britain" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Europe" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Finland" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Greece" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Hungary" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Ireland" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Luxembourg" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Malta" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Monaco" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Norway" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Poland" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Portugal" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Romania" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Russia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Serbia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Spain" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Slovakia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Slovenia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Sweden" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Switzerland" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Ukraine" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Emerging Markets" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Algeria" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Argentina" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Armenia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Bahrain" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Bermuda" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Bolivia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Brazil" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="British Virgin Islands" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Cayman Islands" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Chile" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Colombia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Congo" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Costa Rica" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Côte dIvoire" IsChecked="false" Min="0" Max="0"/>
+              <Value Name="Cuba" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Cyprus" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Ecuador" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Egypt" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="El Salvador" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Fiji" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Georgia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Ghana" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Greenland" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Guam" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Guatemala" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Guinea" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Iraq" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Iran" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Israel" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Jamaica" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Jordan" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Kenya" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Kuwait" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Lebanon" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Libya" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Madagascar" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Mauritius" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Mexico" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Morocco" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Nigeria" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Oman" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Palestine" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Peru" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Panama" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Papua New Guinea" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Paraguay" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Puerto Rico" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Qatar" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Rwanda" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Saudi Arabia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="South Africa" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Togo" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Turkey" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="United Arab Emirates" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Uruguay" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Venezuela" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Yemen" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Zambia" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Zimbabwe" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Global" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Global" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="APG Sector Exposure" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Real Estate" IsChecked="true" Min="0.25" Max="0.64"/>
+              <Value Name="Technology" IsChecked="true" Min="0.5" Max="1"/>
+              <Value Name="Health Care" IsChecked="true" Min="0.25" Max="0.8"/>
+              <Value Name="Financials" IsChecked="true" Min="0.2" Max="0.8"/>
+              <Value Name="Consumer Discretionary" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Communications" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Industrials" IsChecked="true" Min="0.2" Max="0.9"/>
+              <Value Name="Consumer Staples" IsChecked="true" Min="0.2" Max="0.9"/>
+              <Value Name="Energy" IsChecked="true" Min="0.5" Max="1"/>
+              <Value Name="Utilities" IsChecked="true" Min="0.34" Max="0.87"/>
+              <Value Name="Materials" IsChecked="true" Min="0.2" Max="0.64"/>
+              <Value Name="Diversified" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Government" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Exposure to CoCos" IsChecked="true" Min="0.15" Max="0.45"/>
+              <Value Name="Yes" IsChecked="true" Min="0.15" Max="0.45"/>
+              <Value Name="Exposure to Structured Credit" IsChecked="true" Min="0.1" Max="0.45"/>
+              <Value Name="Yes" IsChecked="true" Min="0.1" Max="0.45"/>
+              <Value Name="Shariah Compliance" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Yes" IsChecked="false" Min="0" Max="1"/>
+              <Value Name="Cash Flow Yield" IsChecked="true" Min="0.1" Max="1"/>
+              <Value Name="Exposure to Vice Industries" IsChecked="true" Min="0.05" Max="0.12"/>
+              <Value Name="Yes" IsChecked="true" Min="0.05" Max="0.12"/>
+            </Values>
+          </ExposureNet>
+          <Command>Add</Command>
+        </Constraints>
+      </Portfolio>
+    </Portfolios>
+  </Body>
+</ASPackage>
